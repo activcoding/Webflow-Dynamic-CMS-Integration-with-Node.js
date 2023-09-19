@@ -28,14 +28,14 @@ npm install
     - `API_KEY`: Your Webflow API key.
     - `SITE_ID`: The ID of your WebFlow site.
     - `COLLECTION_ID`: The ID of the collection you want to work with.
-4. Save the `.env` file and open `index.js`
+4. Save the `.env` file and open `app.js`
     - replace the function with the function you want to execute
-5. Save the changes to the `index.js` file.
+5. Save the changes to the `app.js` file.
 6. Open a terminal or command prompt and navigate to the project directory.
 7. Run the following command to execute the script:
 
 ```shell
-node index.js
+node app.js
 ```
 
 Remember to modify the line: `webflowAPI.getCollections(siteID)` with the function you want to execute. You can modify this line to call different methods from the `WebFlowAPI` class or create your own custom logic using the provided methods.
